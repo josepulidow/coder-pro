@@ -69,8 +69,26 @@ body {
     padding: 5px;
 }
 
+
+
+/* Galeria */
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 40px;
+
+}
+#galeria img{
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+    object-fit:contain;
+}
+
+#galeria img:hover{
+    border: 10px double #EEEEEE;
+}
 /* Se quizo hacer un intento de galeria las cuales todas tuvieran la misma medida y estuvieran alineadas */
-.categorias {
+/* .categorias {
     overflow: hidden;
 }
 
@@ -83,7 +101,7 @@ body {
     margin: 5px;
     height: 300px;
     width: 500px;
-}
+} */
 
 .cat-text {
     text-align: center;
