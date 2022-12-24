@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Luxury Cars</title>
+</head>
+
+<body>
+    <!-- Se coloco el header en cada pagina -->
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./categorias.html">Categorias</a></li>
+                <li><a href="./marcas.html">Marcas</a></li>
+                <li><a href="./fre-que.html">Preguntas Frecuentes</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Estes un titulo para que sepan que aqui nos pueden contactar -->
+        <div>
+            <h1 class="titulos">Dejanos tu mensaje</h1>
+        </div>
+
+        <!-- Aqui se emppieza con el formulario colocando los campos que contendra el footer -->
+        <section class="formulario">
+            <form action="">
+                <div>
+                    <input class="datos" type="text" id="name" name="visitor-name" placeholder="Nombre" required>
+                    <input class="datos" type="text" id="last-name" name="visitor-last-name" placeholder="Apellido"
+                        required>
+                </div>
+
+                <div>
+                    <input class="datos" type="text" id="numero" name="visitor-number" placeholder="Numero Telefonico"
+                        required>
+                </div>
+
+                <div>
+                    <input class="datos" type="email" id="email" name="visitor-email" placeholder="Correo" required>
+                </div>
+
+                <div>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label for="">Acepto terminos y condiciones</label>
+                    <input type="checkbox">
+                </div>
+
+                <div class="checkbox">
+                    <label for="">Suscribirse a New Steler</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <input class="botones" type="reset">
+                    <button class="botones" type="submit">Enviar Mensaje</button>
+                </div>
+        </section>
+        </form>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="parrafo-footer">&copy;2022, Emanuel Pulido. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Se declaran estilos del cuerpo */
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+/* Definimos el color del header */
+.header {
+    background-color: #222831;
+}
+
+/* Definimos el estilo del menu denntro del header */
+.menu {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 35%;
+    margin: auto;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #00ADB5;
+}
+
+/* Todos los titulos de inicio de una pagina llevan un estilo */
+.titulos {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Se declara el estilo del footer en todas las paginas */
+.footer {
+    background-color: #00ADB5;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Se dan estilos del incio */
+.inicio {
+    text-align: center;
+}
+
+.inicios {
+    overflow: hidden;
+}
+
+.inicio {
+    margin: 50px;
+    float: left;
+}
+.inicio {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.inicio img {
+    width: 900px;
+    height: 700px;
+}
+
+/* Despues de importar los iframe de youtube se le dan estilos */
+.iframe {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.iframe iframe {
+    margin: 10px;
+}
+
+/* Todos los parrafos de cada pagina llevan un estilo */
+.parrafo-inicios p {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Se quizo hacer un intento de galeria las cuales todas tuvieran la misma medida y estuvieran alineadas */
+.categorias {
+    overflow: hidden;
+}
+
+.categoria {
+    margin: 50px;
+    float: left;
+}
+
+.categoria img {
+    margin: 5px;
+    height: 300px;
+    width: 500px;
+}
+
+.cat-text {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Se quizo hacer un intento de galeria las cuales todas tuvieran la misma medida y estuvieran alineadas */
+.marcas {
+    overflow: hidden;
+}
+
+.marca,
+.categoria {
+    margin: 50px;
+    float: left;
+}
+
+.marca img {
+    height: 250px;
+    width: 350px;
+}
+
+.marc-text {
+    text-align: center;
+    margin: 10px;
+}
+
+/* En la seccion de preguntas se dio formato los cuales se vieran con bordes para diferenciar */
+.pregunta {
+    margin: 20px;
+    padding: 10px;
+    border: solid #393E46;
+}
+
+.pregunta h2 {
+    margin: 10px;
+}
+
+.pregunta p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* El formulario es simple pero es donde mas le meti para que se viera bien, se pusieron bordes, margenes, colores, posicionamiento, etc, */
+.formulario {
+    width: 400px;
+    background-color: #393E46;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    color: #EEEEEE;
+}
+
+.datos {
+    width: 100%;
+    background-color: #393E46;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00ADB5;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.formulario textarea {
+    width: 100%;
+    background-color: #393E46;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00ADB5;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.checkbox {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.botones {
+    width: 100%;
+    background-color: #00ADB5;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
