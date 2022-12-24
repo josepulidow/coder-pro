@@ -12,36 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Definimos el color del header */
-.header {
-    background-color: #222831;
-}
-
-/* Definimos el estilo del menu denntro del header */
-.menu {
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    max-width: 35%;
-    margin: auto;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li a {
-    color: #EEEEEE;
-    text-decoration: none;
-    padding: 20px;
-    display: block;
-}
-
-.menu li a:hover {
-    background-color: #00ADB5;
-}
-
 /* Todos los titulos de inicio de una pagina llevan un estilo */
 .titulos {
     margin: 20px;
