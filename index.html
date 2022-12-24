@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- Se coloco el header en cada pagina -->
+    <!-- Se coloco el header en cada pagina elaborado con boostrap-->
     <header class="header">
         <nav class="navbar navbar-expand-lg" style="background-color: #222831;">
             <div class="container-fluid">
@@ -58,52 +58,71 @@
     </header>
     <main>
         <!-- Esta sera la parte inicial del proyecto, donse se dara una pequeña introduccion a la pagina -->
-        <div class="inicios">
-            <div class="inicio">
-                <img class="inicio-imagen" src="../assets/inicio.jpg" alt="">
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="inicio">
-                <h2>¿Quienes somos?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet animi
-                    adipisci nemo nihil magni saepe quasi sunt doloremque quidem vel error laudantium, aperiam iure
-                    dicta
-                    aspernatur ipsam incidunt molestias?
-                    Aliquid repudiandae ducimus beatae quas earum velit cumque at aliquam eum sed laborum molestias
-                    minus
-                    eos asperiores, minima, explicabo, magni alias fuga iste? Saepe totam molestias facilis, est quis
-                    fugit?
-                    Aperiam, suscipit quaerat ex harum consectetur, ea quidem libero repudiandae obcaecati dolor odio
-                    alias
-                    soluta totam illo molestiae, temporibus ab neque quis hic quos voluptas velit nisi esse. Alias,
-                    beatae?
-                    Numquam iure iste corrupti, est nemo maiores iusto enim minima, necessitatibus ipsam rerum! Ipsa,
-                    excepturi dolores a quibusdam totam sed cumque mollitia. Est id aliquid culpa temporibus facere rem.
-                    Pariatur.
-                    Voluptatum quod commodi soluta beatae pariatur voluptas quo at! Distinctio neque sequi dolor
-                    architecto
-                    ipsam eos explicabo facilis? Dignissimos maiores est perferendis error nihil aliquam quas expedita
-                    neque
-                    animi omnis!
-                    Quo necessitatibus, blanditiis reprehenderit temporibus in magnam expedita sint eligendi deserunt
-                    nisi.
-                    Iusto dolor exercitationem, distinctio earum nam harum optio illum accusamus inventore, voluptates
-                    assumenda nemo voluptatum, tempora vero recusandae?
-                    Placeat eligendi architecto temporibus molestias obcaecati atque, optio praesentium exercitationem
-                    modi?
-                    Error est numquam eligendi dolores nesciunt tempore ipsam quas rem reiciendis, architecto molestiae,
-                    harum asperiores voluptas sequi doloremque exercitationem.
-                    Ducimus unde placeat id voluptates rem sint debitis, eligendi saepe exercitationem vel dignissimos
-                    nulla
-                    nisi nesciunt tempore quia numquam aut veritatis, dolore quibusdam. Provident sint ipsam similique
-                    voluptates, necessitatibus asperiores.
-                    Placeat voluptate, cumque quod consectetur quisquam perferendis enim voluptas cum explicabo natus
-                    modi
-                    eligendi voluptates aperiam earum, porro ducimus praesentium atque nam tenetur deserunt delectus
-                    dignissimos quis. Et, amet totam?
-                    Dolor, commodi. Labore corporis veniam assumenda similique totam nam maxime dolores aliquid ad amet
-                    sequi, illo minus cumque cupiditate ratione magnam temporibus, consectetur dolor excepturi obcaecati
-                    delectus voluptatibus at quaerat.</p>
-            </div>
+        <div class="inicio">
+            <h1>¿Quienes somos?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet animi
+                adipisci nemo nihil magni saepe quasi sunt doloremque quidem vel error laudantium, aperiam iure
+                dicta
+                aspernatur ipsam incidunt molestias?
+                Aliquid repudiandae ducimus beatae quas earum velit cumque at aliquam eum sed laborum molestias
+                minus
+                eos asperiores, minima, explicabo, magni alias fuga iste? Saepe totam molestias facilis, est quis
+                fugit?
+                Aperiam, suscipit quaerat ex harum consectetur, ea quidem libero repudiandae obcaecati dolor odio
+                alias
+                soluta totam illo molestiae, temporibus ab neque quis hic quos voluptas velit nisi esse. Alias,
+                beatae?
+                Numquam iure iste corrupti, est nemo maiores iusto enim minima, necessitatibus ipsam rerum! Ipsa,
+                excepturi dolores a quibusdam totam sed cumque mollitia. Est id aliquid culpa temporibus facere rem.
+                Pariatur.
+                Voluptatum quod commodi soluta beatae pariatur voluptas quo at! Distinctio neque sequi dolor
+                architecto
+                ipsam eos explicabo facilis? Dignissimos maiores est perferendis error nihil aliquam quas expedita
+                neque
+                animi omnis!
+                Quo necessitatibus, blanditiis reprehenderit temporibus in magnam expedita sint eligendi deserunt
+                nisi.
+                Iusto dolor exercitationem, distinctio earum nam harum optio illum accusamus inventore, voluptates
+                assumenda nemo voluptatum, tempora vero recusandae?
+                Placeat eligendi architecto temporibus molestias obcaecati atque, optio praesentium exercitationem
+                modi?
+                Error est numquam eligendi dolores nesciunt tempore ipsam quas rem reiciendis, architecto molestiae,
+                harum asperiores voluptas sequi doloremque exercitationem.
+                Ducimus unde placeat id voluptates rem sint debitis, eligendi saepe exercitationem vel dignissimos
+                nulla
+                nisi nesciunt tempore quia numquam aut veritatis, dolore quibusdam. Provident sint ipsam similique
+                voluptates, necessitatibus asperiores.
+                Placeat voluptate, cumque quod consectetur quisquam perferendis enim voluptas cum explicabo natus
+                modi
+                eligendi voluptates aperiam earum, porro ducimus praesentium atque nam tenetur deserunt delectus
+                dignissimos quis. Et, amet totam?
+                Dolor, commodi. Labore corporis veniam assumenda similique totam nam maxime dolores aliquid ad amet
+                sequi, illo minus cumque cupiditate ratione magnam temporibus, consectetur dolor excepturi obcaecati
+                delectus voluptatibus at quaerat.</p>
+        </div>
         </div>
 
 
